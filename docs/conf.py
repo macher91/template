@@ -244,7 +244,17 @@ texinfo_documents = [
    u'Read the Docs', 'ReadtheDocsTemplate', 'One line description of project.',
    'Miscellaneous'),
 ]
-
+extensions = [
+  'sphinx.ext.intersphinx',
+  't3sphinx.ext.t3extras',
+  't3sphinx.ext.t3tablerows',
+  't3sphinx.ext.targets',
+  'sphinxcontrib.googlechart',
+  'sphinxcontrib.googlemaps',
+  'sphinxcontrib.slide',
+  'sphinxcontrib.youtube',
+  'numpydoc'
+]
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
 
