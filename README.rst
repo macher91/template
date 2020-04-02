@@ -1,4 +1,4 @@
-Template
+1. Template
 ========
 
 $project will solve your problem of where to start with documentation,
@@ -10,13 +10,13 @@ Look how easy it is to use:
     # Get your stuff done
     project.do_stuff()
 
-Features
+1.1 Features
 --------
 
 - Be awesome
 - Make things faster
 
-Installation
+1.2. Installation
 ------------
 
 Install $project by running:
